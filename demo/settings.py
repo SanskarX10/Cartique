@@ -109,7 +109,7 @@ SOCIALACCOUNT_PROVIDERS = {
     }
 }
 
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static_in_env')]
 STATIC_ROOT =os.path.join(BASE_DIR, 'staticfiles')
 
 # CRISPY FORM
